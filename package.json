@@ -1,0 +1,29 @@
+{
+  "name": "puzzle-cli",
+  "version": "0.0.1",
+  "description": "A powerful command line tool to quickly scaffold your Jigsaw project",
+  "bin": {
+    "puzzle": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jigsaw",
+    "tailwindcss",
+    "generators"
+  ],
+  "author": "Geoff Selby <geoff@geoffcodesthings.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeoffSelby/puzzle-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-progress": "^2.1.1",
+    "commander": "^2.20.0",
+    "inquirer": "^6.3.1",
+    "node-cmd": "^3.0.0"
+  }
+}
