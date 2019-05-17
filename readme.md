@@ -26,6 +26,12 @@ To use the [blog preset](https://github.com/GeoffSelby/puzzle-blog-preset):
 puzzle new my-blog --preset blog
 ```
 
+To use the [prelaunch preset](https://github.com/GeoffSelby/puzzle-prelaunch-preset):
+
+```bash
+puzzle new my-product --preset prelaunch
+```
+
 The `new` command will install [Jigsaw](https://jigsaw.tighten.co) with the preset given.
 
 ## Current presets include:
@@ -37,6 +43,10 @@ A mostly blank slate for [Jigsaw](https://jigsaw.tighten.co) sites powered by [T
 ### Blog
 
 A minimal blog preset template for [Jigsaw](https://jigsaw.tighten.co) sites powered by [Tailwind CSS](https://tailwindcss.com).
+
+### Prelaunch
+
+A modern, minimal prelaunch preset for [Jigsaw](https://jigsaw.tighten.co) powered by [Tailwind CSS](https://tailwindcss.com).
 
 ## License
 
